@@ -30,5 +30,16 @@ export default StyleSheet.create({
         fontSize: 16,
         lineHeight: 24,
         color: '#737380'
+    },
+    incidentsList: {
+        marginTop: 32
+    },
+    incident: {
+        padding: 24,
+        borderRadius: 8,
+        backgroundColor: "#ffffff",
+        marginBottom: 16
     }
+
+
 })
