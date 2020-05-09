@@ -39,7 +39,26 @@ export default StyleSheet.create({
         borderRadius: 8,
         backgroundColor: "#ffffff",
         marginBottom: 16
+    },
+    incidentProperty: {
+        fontSize: 14,
+        color: '#41414b',
+        fontWeight: 'bold'
+    },
+    incidentValue: {
+        marginTop: 8,
+        fontSize: 15,
+        marginBottom: 24,
+        color: '#737388'
+    },
+    detailsButton: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center'
+    },
+    detailsButtonText: {
+        color: '#e02041',
+        fontSize: 15,
+        fontWeight: 'bold'
     }
-
-
 })
